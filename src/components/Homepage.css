@@ -1,0 +1,93 @@
+main{
+
+    grid-area: main;
+    background-image: url("/images/background.jpg" );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* color: #54C392; */
+    color: white;
+    font-size: 2.5rem;
+    height: fit-content;
+    padding: 20px;
+    
+    
+    
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-container{
+    margin: 20px;
+    background-color: #b2f32681;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+}
+.herbI{
+    height: 290px;
+    border-radius: 50px;
+}
+.web-home.info{
+    width: 50%;
+    align-self: flex-end;
+}
+.web-home-images{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    ;
+    justify-content: space-between;
+
+}
+.herb1{
+    align-self: flex-start;
+}
+.herb2{
+    align-self: center;
+}
+.herb3{
+    align-self: flex-end;
+}
+
+.benefits{
+    background-color: #1b1d19c9;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.benefitInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+    
+}
+.bene1{
+    width: 30%;
+    border: 3px white double;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+#beneI{
+    height: 300px;
+    width: 400px;
+}
+#benI{
+   height: 100%;
+   width: 100%;
+}
+

@@ -1,0 +1,20 @@
+footer{
+    grid-area: footer;
+    background-color: #73EC8B;
+    color: white;
+    
+
+}
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.web-N{
+    font-size: 2.5rem;
+}
+.endFooter{
+    font-size: 1.5rem;
+}
