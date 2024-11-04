@@ -8,7 +8,7 @@ main{
     /* color: #54C392; */
     color: white;
     font-size: 2.5rem;
-    height: fit-content;
+    min-height:100vh ;
     padding: 20px;
     
     

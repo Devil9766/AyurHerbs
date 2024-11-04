@@ -8,8 +8,8 @@ export default function Products(props){
         <div className="productsContainer">
             <h1>Products: </h1>
             <div className="productGrid">
-                {ayurvedicHerbs.map((herb=>(
-                <div className="productFlex">
+                {ayurvedicHerbs.map(herb=>(
+                <div key={herb.id}  className="productFlex">
                         <div className="infoCont">
                             <h1>{herb.name}</h1>
                             <hr/>
@@ -19,11 +19,11 @@ export default function Products(props){
                             <p>Information: {herb.information}</p>
                             <p>Price: &#8377; {herb.pricePer100gm}</p>
                             <div className="buttons"> 
-                                <button className="buyButton">Buy</button>
+                                <button onClick={()=>{props.addToCart(herb)}} className="buyButton">Buy</button>
                             </div>
                         </div>
                     </div>
-)))}
+))}
             </div>
         </div>
     )

@@ -15,7 +15,7 @@ export default function Header(props){
             <div className="navL links">
                 <Link to="/"> Home </Link>
                 <Link to="/products">Products</Link>
-                <Link  to="/cart">Cart<sub>{cartCount}</sub></Link>
+                <Link  to="/cart">Cart<sub>{props.cartCount}</sub></Link>
             </div>
             </div>
         </header>
